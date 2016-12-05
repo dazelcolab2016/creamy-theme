@@ -78,6 +78,14 @@ font-family:sans-serif;
 }
 
 /* section so-creame */
+.section-cream .row{
+    width: 100% auto;
+    margin:0px;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
 .so-cream img{
        width: 99%;
 }
@@ -86,25 +94,43 @@ font-family:sans-serif;
     text-align: center;
     color:#da2c38;
     margin:0px;
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.text-creame{
+    vertical-align: middle;
+    width: 100% auto;
+    
 }
 /* section about */
 .about{
     background: #da2c38;
     color: #f4f0bb;
     text-align: center;
-    padding: 50px; 
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
 }
 /* section icon */
+
 .icon-section{
     color:#da2c38;
     background: #f4f0bb;
     text-align: center;
-    margin: 50px;
+   
+}
+.icon-section .row{
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+   
 }
 .icon-section i{
     font-size: 100px;
 }
+
 .footer{
     background: #da2c38;
     color: #f4f0bb;
@@ -113,6 +139,46 @@ font-family:sans-serif;
     margin-left: 0;
     vertical-align: middle;
 }
+@media screen and (max-width:999px)
+{
+	.icon-blue
+	{
+		margin-left: -65px;
 
+	}
+	.pasos .col-pasos-info
+	{
+		background: none;
+	}
+	.pasos .row{
+		background-size: cover;
+	}
+	.pasos .pasos-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.sombra .row>div
+	{
+		text-align: center;
+	}
+	.sombra .row>div .img-responsive
+	{
+		display: inline-block;
+	}
+	.desktop-menu
+	{
+		text-align: center;
+	}
+    .margen2{
+    padding-left: 0px;
+    }
+}
 
 
