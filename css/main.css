@@ -43,12 +43,19 @@ nav li a:hover, nav li a:focus{
 	border-radius: 5px;
 }
 .line-nav p{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     text-align: center;
     color: #f4f0bb;
     font-size: 17px;
-    
+    vertical-align: middle;
+}
+.line-nav button span{
+    background-color: #f4f0bb;
+}
+.line-nav{
+    background-color: #da2c38;
+    padding-top: 20px;
 }
 .frase{
 	margin: 200px 0;
@@ -62,8 +69,4 @@ font-family:sans-serif;
 .sombra{
 	background: rgba(42, 46, 54, 0.72);
 	padding-top: 10px ;
-}
-.line-nav{
-    background-color: #da2c38;
-    padding-top: 20px;
 }
