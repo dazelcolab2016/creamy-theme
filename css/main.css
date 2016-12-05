@@ -76,6 +76,8 @@ font-family:sans-serif;
 	background: rgba(10, 10, 10, 0.72);
 	padding-top: 10px ;
 }
+
+/* section so-creame */
 .so-cream img{
        width: 99%;
 }
@@ -86,4 +88,11 @@ font-family:sans-serif;
     margin:0px;
     padding: 30px;
 }
-/* section so-creame */
+/* section about */
+.about{
+    background: #da2c38;
+    color: #f4f0bb;
+    text-align: center;
+    padding: 50px;
+    
+}
