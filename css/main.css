@@ -4,17 +4,13 @@ body
 {
 	font-family: Merriweather;
 }
-/*--------- Header */
-.header-image
+body p
 {
-	background: url(../img/creamy.jpg);
-	background-size:120%;
-    background-position: center;
-    background-repeat: no-repeat;
-	color: #f4f0bb;
-    
+	font-family:sans-serif;
     
 }
+/*--------- Header */
+
 header a,h3{
 	color: #f4f0bb;
 }
@@ -54,12 +50,22 @@ nav li a:hover, nav li a:focus{
     background-color: #f4f0bb;
 }
 .line-nav{
-    background-color: #da2c38;
-    padding-top: 20px;
+    background-color: #da2c38; 
+    width: 100% auto;
+}
+/* Hero */
+.hero-image
+{
+	background: url(../img/creamy.jpg);
+	background-size:120%;
+    background-position: center;
+    background-repeat: no-repeat;
+	color: #f4f0bb; 
+   
 }
 .frase{
-	margin: 200px 0;
-    padding-bottom:150px;
+	margin: 0 0;
+    padding:180px 0;
 	text-align: center;
     vertical-align: middle; 
 }
@@ -67,6 +73,17 @@ nav li a:hover, nav li a:focus{
 font-family:sans-serif;
 }
 .sombra{
-	background: rgba(42, 46, 54, 0.72);
+	background: rgba(10, 10, 10, 0.72);
 	padding-top: 10px ;
 }
+.so-cream img{
+       width: 99%;
+}
+.so-cream {
+    background: #f4f0bb;
+    text-align: center;
+    color:#da2c38;
+    margin:0px;
+    padding: 30px;
+}
+/* section so-creame */
