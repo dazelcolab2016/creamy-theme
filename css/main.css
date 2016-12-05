@@ -93,6 +93,26 @@ font-family:sans-serif;
     background: #da2c38;
     color: #f4f0bb;
     text-align: center;
-    padding: 50px;
-    
+    padding: 50px; 
 }
+/* section icon */
+.icon-section{
+    color:#da2c38;
+    background: #f4f0bb;
+    text-align: center;
+    margin: 50px;
+}
+.icon-section i{
+    font-size: 100px;
+}
+.footer{
+    background: #da2c38;
+    color: #f4f0bb;
+    text-align: left;
+    padding: 12px;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+
+
