@@ -12,14 +12,12 @@ body p
 }
 /*--------- Header */
 
-header a,h3{
-	color: #f4f0bb;
-}
 nav li a{
 	display: block;
 	padding: 15px 15px;
 	transition: all 0.2s;
 	border-radius: 6px;
+    color: #f4f0bb
 }
 nav li a:hover, nav li a:focus{
 	text-decoration: none;
@@ -38,11 +36,12 @@ nav li a:hover, nav li a:focus{
 	list-style: none;
 	padding: 10px;
 	border-radius: 5px;
+
 }
 .line-nav p{
     margin: 10px;
     padding: 0;
-    text-align: center;
+    text-align: left;
     color: #f4f0bb;
     font-size: 17px;
     vertical-align: middle;
